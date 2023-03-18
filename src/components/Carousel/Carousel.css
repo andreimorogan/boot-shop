@@ -1,0 +1,15 @@
+.c-item {
+    height: 35em;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (max-width: 768px) {
+    .c-item {
+        height: 15em;
+    }
+}

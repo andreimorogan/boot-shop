@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/boot-shop/static/css/main.238dbaf9.css",
+    "main.js": "/boot-shop/static/js/main.994ae3e6.js",
+    "static/js/787.054197de.chunk.js": "/boot-shop/static/js/787.054197de.chunk.js",
+    "static/media/sale.jpg": "/boot-shop/static/media/sale.9d78dcbe7cc1bdbda1c6.jpg",
+    "static/media/headphone.jpg": "/boot-shop/static/media/headphone.16cb17bb0cde06068b89.jpg",
+    "static/media/phone.jpg": "/boot-shop/static/media/phone.a0ff902fe08b1838278b.jpg",
+    "static/media/boot-shop.svg": "/boot-shop/static/media/boot-shop.5223e643aa87c489cd3f2cec6113b722.svg",
+    "index.html": "/boot-shop/index.html",
+    "main.238dbaf9.css.map": "/boot-shop/static/css/main.238dbaf9.css.map",
+    "main.994ae3e6.js.map": "/boot-shop/static/js/main.994ae3e6.js.map",
+    "787.054197de.chunk.js.map": "/boot-shop/static/js/787.054197de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238dbaf9.css",
+    "static/js/main.994ae3e6.js"
+  ]
+}

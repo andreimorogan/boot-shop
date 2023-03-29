@@ -1,7 +1,7 @@
 import './Carousel.css';
-import Sale from '../../assets/sale.jpg';
-import Headphone from '../../assets/headphone.jpg';
-import Phone from '../../assets/phone.jpg';
+import Sale from '../../assets/carousel/carousel-sale.jpg';
+import Headphone from '../../assets/carousel/carousel-headphone.jpg';
+import Phone from '../../assets/carousel/carousel-phone.jpg';
 
 const Carousel = () => {
     return (

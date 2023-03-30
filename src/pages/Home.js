@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar/Navbar';
 import Carousel from '../components/Carousel/Carousel';
+import Divider from '../components/Divider/Divider';
 import Grid from '../container/Grid/Grid';
 import ProductCard from '../components/ProductCard/ProductCard';
 import Laptop1 from '../assets/product-images/generic-laptop-1.jpg';
@@ -15,6 +16,7 @@ function Home() {
         <>
             <Navbar />
             <Carousel />
+            <Divider top='3rem' bottom='1.5rem' />
             <Grid>
                 <ProductCard img={Laptop1} name="Generic Laptop #1" price={1199.99} />
                 <ProductCard img={Desktop1} name="Generic Desktop #1" price={1999.99} />

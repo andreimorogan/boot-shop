@@ -1,0 +1,11 @@
+.c-product-img {
+    max-height: 20em;
+    object-fit: contain;    
+}
+
+@media (min-width: 576px) {
+    .c-product-img {
+        height: 20em;
+        object-fit: contain;
+    }
+}

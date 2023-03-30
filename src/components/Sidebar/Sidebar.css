@@ -1,0 +1,13 @@
+.c-filter-container {
+    position: fixed;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 500px) {
+    .c-filter-container {
+        position: absolute;
+        width: 100vw;
+    }
+}
+

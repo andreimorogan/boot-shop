@@ -3,12 +3,12 @@ import Carousel from '../components/Carousel/Carousel';
 import Divider from '../components/Divider/Divider';
 import Grid from '../container/Grid/Grid';
 import ProductCard from '../components/ProductCard/ProductCard';
-import Laptop1 from '../assets/product-images/generic-laptop-1.jpg';
-import Desktop1 from '../assets/product-images/generic-desktop-1.jpg';
-import Phone1 from '../assets/product-images/generic-phone-1.jpg';
-import Tablet1 from '../assets/product-images/generic-tablet-1.jpg'
-import Poster1 from '../assets/product-images/generic-poster-1.jpg';
-import Case1 from '../assets/product-images/generic-case-1.jpg';
+import Laptop1 from '../assets/product-images/DesktopLaptop/generic-laptop-1.jpg';
+import Desktop1 from '../assets/product-images/DesktopLaptop/generic-desktop-1.jpg';
+import Phone1 from '../assets/product-images/PhoneTablet/generic-phone-1.jpg';
+import Tablet1 from '../assets/product-images/PhoneTablet/generic-tablet-1.jpg'
+import Poster1 from '../assets/product-images/SuppliesAccessories/generic-poster-1.jpg';
+import Case1 from '../assets/product-images/SuppliesAccessories/generic-case-1.jpg';
 import Footer from '../components/Footer/Footer';
 
 function Home() {

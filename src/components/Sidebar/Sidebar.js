@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Sidebar.css';
 
 const Sidebar = (props) => {
 
@@ -14,7 +15,7 @@ const Sidebar = (props) => {
             <div className="container">
                 <button type="button" className="btn btn-secondary" onClick={handleClick}>Filters</button>
             </div>
-            <div className={`flex-shrink-0 p-3 mt-3 bg-secondary ${toggle}`} style={{ width: '280px', position: 'fixed', zIndex: '999', transition: 'all 0.3s ease-in-out' }}>
+            <div className={`flex-shrink-0 p-3 mt-3 bg-secondary c-filter-container ${toggle}`}>
                 <div href="/" className="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
                     <span className="fs-5 fw-semibold text-black">Filters</span>
                 </div>

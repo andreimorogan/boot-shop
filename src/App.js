@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
 import Register from './pages/Register';
@@ -12,12 +12,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/desktop-laptop" element={<DesktopLaptop />} />
-        <Route path="/phone-tablet" element={<PhoneTablet />} />
-        <Route path="/supplies-accessories" element={<SuppliesAccessories />} />
+        <Route path='/' element={<Navigate to='/bootshop' />} />
+        <Route path="/bootshop" element={<Home />} />
+        <Route path="/bootshop/signin" element={<Signin />} />
+        <Route path="/bootshop/register" element={<Register />} />
+        <Route path="/bootshop/desktop-laptop" element={<DesktopLaptop />} />
+        <Route path="/bootshop/phone-tablet" element={<PhoneTablet />} />
+        <Route path="/bootshop/supplies-accessories" element={<SuppliesAccessories />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </>

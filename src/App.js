@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Navigate to='/bootshop' />} />
-        <Route path="/bootshop" element={<Home />} />
-        <Route path="/bootshop/signin" element={<Signin />} />
-        <Route path="/bootshop/register" element={<Register />} />
-        <Route path="/bootshop/desktop-laptop" element={<DesktopLaptop />} />
-        <Route path="/bootshop/phone-tablet" element={<PhoneTablet />} />
-        <Route path="/bootshop/supplies-accessories" element={<SuppliesAccessories />} />
+        <Route path='/' element={<Navigate to='/boot-shop' />} />
+        <Route path="/boot-shop" element={<Home />} />
+        <Route path="/boot-shop/signin" element={<Signin />} />
+        <Route path="/boot-shop/register" element={<Register />} />
+        <Route path="/boot-shop/desktop-laptop" element={<DesktopLaptop />} />
+        <Route path="/boot-shop/phone-tablet" element={<PhoneTablet />} />
+        <Route path="/boot-shop/supplies-accessories" element={<SuppliesAccessories />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </>

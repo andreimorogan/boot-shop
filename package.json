@@ -2,7 +2,7 @@
   "name": "boot-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://andreimorogan.github.io/boot-shop",
+  "homepage": "http://andreimorogan.github.io/bootshop",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

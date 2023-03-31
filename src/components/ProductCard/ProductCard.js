@@ -9,7 +9,7 @@ const ProductCard = (props) => {
     return (
             <div className="col">
                 <div className="card shadow-sm h-100">
-                <Link to="/"><img src={img} className="card-img-top c-product-img" alt="Generic laptop"></img></Link>
+                <Link to="/bootshop"><img src={img} className="card-img-top c-product-img" alt="Generic laptop"></img></Link>
                 <div className="card-body">
                         <p className="card-text" >{name}</p>
                         <div className="d-flex justify-content-between align-items-center">
